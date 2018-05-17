@@ -1,0 +1,11 @@
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\bin\Debug\netcoreapp2.0\Lost in the Woods.deps.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\bin\Debug\netcoreapp2.0\Lost in the Woods.runtimeconfig.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\bin\Debug\netcoreapp2.0\Lost in the Woods.runtimeconfig.dev.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\bin\Debug\netcoreapp2.0\Lost in the Woods.dll
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\bin\Debug\netcoreapp2.0\Lost in the Woods.pdb
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.csprojResolveAssemblyReference.cache
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.csproj.CoreCompileInputs.cache
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.AssemblyInfoInputs.cache
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.AssemblyInfo.cs
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.dll
+C:\Users\Pete\Desktop\DojoAssignments\netCore\orms\Dapper\Lost in the Woods\obj\Debug\netcoreapp2.0\Lost in the Woods.pdb
