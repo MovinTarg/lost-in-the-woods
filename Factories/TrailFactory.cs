@@ -42,7 +42,7 @@ namespace Lost_in_the_Woods.Factory
                 using(IDbCommand command = dbConnection.CreateCommand())
                 {
                    dbConnection.Open();
-                   return dbConnection.Query<Trail>("SELECT * FROM trail WHERE id = @Id", new {ID = id}).FirstOrDefault();
+                   return dbConnection.Query<Trail>("SELECT * FROM trails WHERE Id = @Id", new {ID = id}).FirstOrDefault();
                 }
             }
         }
@@ -52,7 +52,7 @@ namespace Lost_in_the_Woods.Factory
             {
                 using(IDbCommand command = dbConnection.CreateCommand())
                 {
-                    string query = @"INSERT INTO trails (name, description, length, elevation, longitude, latitude, created_at, updated_at) 
+                    string query = @"INSERT INTO trails (Name, Description, Length, Elevation, Longitude, Latitude, CreatedAt, UpdatedAt) 
                     VALUES (@Name, @Description, @Length, @Elevation, @Longitude, @Latitude, NOW(), NOW())";
                     dbConnection.Open();
                     dbConnection.Execute(query, trail);

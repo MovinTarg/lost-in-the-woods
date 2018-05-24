@@ -11,17 +11,22 @@ namespace Lost_in_the_Woods.Controllers
 {
     public class HomeController : Controller
     {
+        private TrailFactory _trailfactory;
+        public HomeController()
+        {
+            _trailfactory = new TrailFactory();
+        }
         private readonly TrailFactory TrailFactory;
         public IActionResult Index()
         {
-            ViewBag.allTrails = TrailFactory.GetAllTrails();
+            ViewBag.allTrails = _trailfactory.GetAllTrails();
             return View();
         }
         [HttpGet]
         [Route("/{id}")]
         public IActionResult Find(int id)
         {
-            ViewBag.Trail = TrailFactory.FindTrail(id);
+            ViewBag.Trail = _trailfactory.FindTrail(id);
             return View("Trail");
         }
         [Route("/new")]
@@ -44,7 +49,7 @@ namespace Lost_in_the_Woods.Controllers
                     Longitude = model.Longitude,
                     Latitude = model.Latitude,
                 };
-                TrailFactory.AddNewTrail(newTrail);
+                _trailfactory.AddNewTrail(newTrail);
             }
             else
             {

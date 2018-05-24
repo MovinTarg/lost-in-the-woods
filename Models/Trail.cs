@@ -14,7 +14,7 @@ namespace Lost_in_the_Woods.Models
         public float Elevation { get; set; }
         public double Longitude { get; set; }
         public double Latitude { get; set; }
-        public DateTime createdAt { get; set; }
-        public DateTime updatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

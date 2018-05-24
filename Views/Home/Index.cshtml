@@ -4,7 +4,7 @@
 <h1>Lost in the Woods</h1>
 <p>A list of local hiking trails</p>
 @{
-    if(ViewBag.allTrails > 1)
+    if(ViewBag.allTrails.Count > 0)
     {
         <table class="table table-bordered">
             <thead>
